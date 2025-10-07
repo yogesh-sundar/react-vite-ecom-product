@@ -3,5 +3,5 @@ import App from './App'
 
 test('renders hello world', () => {
   render(<App />)
-  expect(screen.getByText(/yogesh/i)).toBeInTheDocument()
+  expect(screen.getByText(/hello/i)).toBeInTheDocument()
 })

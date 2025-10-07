@@ -1,7 +1,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",  // This line is crucial!
+    "./src/**/*.{js,ts,jsx,tsx}",  // This ensures Tailwind scans your React components
   ],
   theme: {
     extend: {},
