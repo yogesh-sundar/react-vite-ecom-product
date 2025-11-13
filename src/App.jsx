@@ -3,6 +3,7 @@ import './App.css'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Login from './Components/Login/Login'
 import Register from './Components/Register/Register'
+import ProductList from './Components/Products/List/ProductList'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path='/products' element={<ProductList/>}/>
       </Routes>
     </BrowserRouter>
   )
