@@ -6,5 +6,6 @@
 }
 
 .register-phone-input > .flag-dropdown{
-  border-right: 1px solid #99a1af;
+  border: none !important;
+  border-right: 1px solid #99a1af !important;
 }
